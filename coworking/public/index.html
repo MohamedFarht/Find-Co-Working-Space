@@ -2,6 +2,8 @@
 <html lang="en">
 
 <head>
+
+
     <meta charset="utf-8">
     <title>Finding cowrking</title>
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
@@ -20,6 +22,19 @@
     <!-- Main Stylesheet File -->
     <link href="stylesheets/search.css" rel="stylesheet">
     <link href="stylesheets/style.css" rel="stylesheet">
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-131488739-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+
+        gtag('config', 'UA-131488739-1');
+    </script>
 
 </head>
 
@@ -62,7 +77,7 @@
                             <div class="autocomplete" style="width:300px;">
                                 <input id="myInput" type="text" name="myCountry" placeholder="Country">
                             </div>
-                            <input class=" " style="background-color: black" value="Search" type="submit">
+                            <input style="background-color: black;" value="Search" type="submit">
                         </form>
                     </div>
                 </div>

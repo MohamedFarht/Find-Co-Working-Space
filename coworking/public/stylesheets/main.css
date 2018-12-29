@@ -23,16 +23,6 @@ body {
 
 /**************************************img***********************/
 
-.Img_logo {
-    margin-left: 10%;
-    margin-top: -160px;
-}
-
-img::selection {
-    text-shadow: none;
-    background: #C82333;
-}
-
 
 /*************************************************************/
 
@@ -92,10 +82,6 @@ small::selection {
     background: #C82333;
 }
 
-.SmallTxt a {
-    color: #921CC4;
-}
-
 .Forgot_pass {
     text-align: right;
     margin-left: 25%;
@@ -140,40 +126,6 @@ small::selection {
 
 
 /*****************************************social***********************************/
-
-.social {
-    display: inline-block;
-    margin-left: 90px;
-}
-
-.fa-google-plus-square,
-.fa-facebook-square {
-    color: #ccc;
-}
-
-.fa-facebook-square:hover {
-    color: #3B5998;
-}
-
-.fa-twitter:hover {
-    color: #55ACEE;
-}
-
-.fa-google-plus-square:hover {
-    color: #DD4B39;
-}
-
-.fa {
-    padding: 20px;
-    font-size: 30px;
-    width: 70px;
-    border-radius: 50%;
-    text-decoration: none;
-}
-
-.fa:hover {
-    background: #fff;
-}
 
 
 /*************************************Button***************************************/
